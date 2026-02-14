@@ -1,0 +1,19 @@
+{
+  "name": "sistema-precificacao-synpack-backend",
+  "version": "1.0.0",
+  "description": "Backend do Sistema de Precificação Synpack",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
